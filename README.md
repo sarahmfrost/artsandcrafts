@@ -1,12 +1,9 @@
 # arts and crafts
-[![Build Status](https://travis-ci.org/hunkim/word-rnn-tensorflow.svg?branch=master)](https://travis-ci.org/hunkim/word-rnn-tensorflow)
 
 Multi-layer Recurrent Neural Networks (LSTM, RNN) for word-level language models in Python using TensorFlow.
 
-Mostly reused code from https://github.com/sherjilozair/char-rnn-tensorflow which was inspired from Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn).
+Used code from https://github.com/hunkim/word-rnn-tensorflow which is inspired from Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn).
 
-# Requirements
-- [Tensorflow 1.1.0rc0](http://www.tensorflow.org)
 
 # Basic Usage
 To train with default parameters on the tinyshakespeare corpus, run:
@@ -53,6 +50,10 @@ DUKE look dissolved: seemeth brands
 That He being and
 full of toad, they knew me to joy.
 ```
+
+
+
+
 
 ### Char-RNN
 ```
@@ -135,11 +136,3 @@ they know allegiance Had made you guilty.
 You do her bear comfort him between him or our noble bosom he did Bolingbroke's
 ```
 
-# Projects
-If you have any project using this word-rnn, please let us know. I'll list up your project here.
-
-- http://bot.wpoem.com/ (Simple poem generator in Korean)
-
-
-# Contribution
-Your comments (issues) and PRs are always welcome.

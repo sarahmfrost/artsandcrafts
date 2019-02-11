@@ -5,7 +5,7 @@ Multi-layer Recurrent Neural Networks (LSTM, RNN) for word-level language models
 Used code from https://github.com/hunkim/word-rnn-tensorflow which is inspired from Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn).
 
 
-I used Love Letters of Nathaniel Hawthorne, volumes 1 and 2. 
+I used *Love Letters of Nathaniel Hawthorne*, volumes 1 and 2. I found the books as text files from Project Gutenberg. 
 
 http://www.gutenberg.org/ebooks/41309
 http://www.gutenberg.org/ebooks/41368
@@ -22,14 +22,7 @@ python train.py
 ```
 run:
 ```bash
-python sample.py --pick 2 --width 4
-```
-
-To pick using beam search, use the `--pick` parameter. Beam search can be
-further customized using the `--width` parameter, which sets the number of beams
-to search with. For example:
-```bash
-python sample.py --pick 2 --width 4
+python sample.py
 ```
 
 # Sample output

@@ -1,9 +1,8 @@
 # arts and crafts
 
-Multi-layer Recurrent Neural Networks (LSTM, RNN) for word-level language models in Python using TensorFlow.
+RNN for word-level language models in Python using TensorFlow.
 
 Used code from https://github.com/hunkim/word-rnn-tensorflow which is inspired from Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn).
-
 
 I used *Love Letters of Nathaniel Hawthorne*, volumes 1 and 2. I found the books as text files from Project Gutenberg. 
 
